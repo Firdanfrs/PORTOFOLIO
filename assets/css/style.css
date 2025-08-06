@@ -1,0 +1,114 @@
+.header {
+    padding: 30px 50px;
+}
+
+.bg-green {
+    background-color: aquamarine;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}
+
+.Hero {
+    display: flex;
+    gap: 30px;
+    padding: 75px 60px;
+    gap: 30px;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.836) 6%,rgb(127, 238, 212) 50%);
+}
+
+.hero-picture img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: white;
+}
+.dash {
+    color: white;
+}
+
+.dash button{
+    padding: 10px 30px;
+    background: rgb(255, 255, 255);
+    color: aqua;
+    border-radius: 50px;
+    border-color: aqua;
+}
+
+.sekolah {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 0px;
+    background-color: aquamarine;
+}
+
+.Marvel {
+    display: flex;
+    gap: 30px;
+}
+
+.kemampuan {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 0px;
+    background-color: aquamarine;
+}
+
+.Pengalaman {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 0px;
+    background-color: aquamarine;
+}
+
+.Hobi {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 0px;
+    background-color: aquamarine;
+}
+
+.footer {
+    text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px 0;
+  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  user-select: none;         
+}
+
+@media screen and (max-width: 900px) {
+    .Marvel {
+        display: block;
+        align-items: center;
+    }
+    .kemampuan, .Pengalaman, .Hobi,.sekolah{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
